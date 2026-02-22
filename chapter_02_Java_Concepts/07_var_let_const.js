@@ -30,19 +30,19 @@
 
 
 // let - Block Scoped
-let b = 20; // Global Scope
+let b =20; // Global Scope
 console.log(b);
 
 // Defination of the function
-function printHello() {
-    console.log("Hello TheTestingAcademy!");
-    let b = 30; // Local Scope
-    console.log(b);
-    if (true) {
-        let b = 5;
-        console.log(b); // 5
-    }
-    console.log("let ->", b);
+function printHello(){
+        console.log("Hello TheTestingAcademy!");
+        let b = 30; // Local Scope
+        console.log(b);
+        if(true){
+            let b = 5;
+            console.log(b); // 5
+        }
+        console.log("let ->",b);   
 }
 
 // Calling of the function
@@ -57,10 +57,11 @@ a = 20;
 console.log(a); // 20
 
 
-// var nn = "Harikishore   ";
-// let nn = "Harikishore";   // Error: Identifier 'nn' has already been declared
+// var nn = "Pramod";
+// let nn = "Pramod";   // Error: Identifier 'nn' has already been declared
 
 
 const pi = 3.14; // Constant variable
 console.log(pi);
 pi = 3.14159; // Error: Assignment to constant variable
+
